@@ -57,7 +57,7 @@ export const Header: Component<{}> = (props) => {
                     AR-Store
                 </A>
             </div>
-            <form
+            {/* <form
                 class="flex items-center gap-1"
                 onsubmit={handleSearchSubmit}
                 autocomplete="off"
@@ -78,7 +78,7 @@ export const Header: Component<{}> = (props) => {
                 >
                     <VsSearch />
                 </button>
-            </form>
+            </form> */}
             <div class="flex flex-row items-center gap-4">
                 <div class="indicator">
                     <Show when={cart.data.items.length > 0}>

@@ -30,7 +30,7 @@ const Main: Component<{}> = () => {
                 <div class="block sm:hidden absolute right-4 bottom-4">
                     <div class="indicator">
                         <A class="btn btn-primary btn-circle" href="/cart">
-                            <span class="indicator-item badge badge-outline">
+                            <span class="indicator-item badge badge-outline rounded-full bg-inherit">
                                 {cart.data.items.reduce(
                                     (acc, item) => acc + item.amount,
                                     0
